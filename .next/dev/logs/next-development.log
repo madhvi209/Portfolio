@@ -1,0 +1,423 @@
+[00:00:01.048] Server  LOG      ✓ Ready in 756ms
+[00:00:04.872] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.172] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.186] Browser WARN    Image with src "/images/dp.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:05.778] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nextjs-developer-working.jpg" "received" null
+[00:00:05.780] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/tailwind-css-design.png" "received" null
+[00:00:05.787] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/react-hooks-code.png" "received" null
+[00:00:05.789] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:00:05.822] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:00:05.823] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nodejs-backend-development.jpg" "received" null
+[00:00:06.028] Browser WARN    Image with src "/images/dp.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:06.075] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:00:06.122] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:00:06.129] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/react-hooks-code.png" "received" null
+[00:00:06.149] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/tailwind-css-design.png" "received" null
+[00:00:06.161] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nodejs-backend-development.jpg" "received" null
+[00:00:06.259] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:00:06.265] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:00:08.204] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:00:08.205] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:00:08.439] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/tailwind-css-design.png" "received" null
+[00:00:08.497] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nextjs-developer-working.jpg" "received" null
+[00:00:08.498] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/react-hooks-code.png" "received" null
+[00:00:08.563] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:00:08.713] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:00:08.755] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nodejs-backend-development.jpg" "received" null
+[00:00:08.859] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.084] Browser WARN    Image with src "/nextjs-developer-working.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.085] Browser WARN    Image with src "/react-hooks-code.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.085] Browser WARN    Image with src "/tailwind-css-design.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.085] Browser WARN    Image with src "/nodejs-backend-development.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.085] Browser WARN    Image with src "/mongodb-database-design.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.085] Browser WARN    Image with src "/typescript-programming.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:09.085] Browser WARN    Image with src "/images/dp.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:13.126] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nodejs-backend-development.jpg" "received" null
+[00:00:13.135] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nextjs-developer-working.jpg" "received" null
+[00:00:13.151] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/react-hooks-code.png" "received" null
+[00:00:13.155] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/tailwind-css-design.png" "received" null
+[00:00:13.213] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:00:13.219] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:00:13.835] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nextjs-developer-working.jpg" "received" null
+[00:00:13.849] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/react-hooks-code.png" "received" null
+[00:00:13.937] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/tailwind-css-design.png" "received" null
+[00:00:13.939] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nodejs-backend-development.jpg" "received" null
+[00:00:14.104] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:00:14.262] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:00:55.937] Server  LOG      ✓ Compiled in 56ms
+[00:00:56.678] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:00:57.005] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:00:57.314] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nextjs-developer-working.jpg" "received" null
+[00:00:57.473] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/react-hooks-code.png" "received" null
+[00:00:57.625] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/tailwind-css-design.png" "received" null
+[00:00:57.705] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nodejs-backend-development.jpg" "received" null
+[00:00:57.898] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:00:57.934] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:00:58.027] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:00:58.122] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nextjs-developer-working.jpg" "received" null
+[00:00:58.145] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:00:58.361] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/react-hooks-code.png" "received" null
+[00:00:58.754] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/tailwind-css-design.png" "received" null
+[00:00:59.067] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nodejs-backend-development.jpg" "received" null
+[00:00:59.220] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:00:59.231] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:01:00.514] Server  LOG     [Contact API] EMAIL_USER exists: true
+[00:01:00.516] Server  LOG     [Contact API] EMAIL_PASS exists: true
+[00:01:02.061] Server  LOG     [Contact API] Gmail direct config success
+[00:01:05.603] Server  LOG     [Contact API] Email sent: "<34d7efe2-3df3-1443-d119-e1215183f975@gmail.com>"
+[00:01:39.215] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nextjs-developer-working.jpg" "received" null
+[00:01:39.241] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/react-hooks-code.png" "received" null
+[00:01:39.270] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/tailwind-css-design.png" "received" null
+[00:01:39.274] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nodejs-backend-development.jpg" "received" null
+[00:01:39.276] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:01:39.329] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:05:16.054] Server  LOG      ✓ Compiled in 67ms
+[00:05:18.379] Server  LOG      ✓ Compiled in 98ms
+[00:05:46.649] Server  LOG     [Contact API] EMAIL_USER exists: true
+[00:05:46.650] Server  LOG     [Contact API] EMAIL_PASS exists: true
+[00:05:47.636] Server  LOG     [Contact API] Gmail direct config success
+[00:05:49.971] Server  LOG     [Contact API] Email sent: "<9ed92661-7dcb-8844-2b04-91317c5154cc@gmail.com>"
+[00:08:12.101] Server  LOG      ✓ Compiled in 121ms
+[00:08:23.366] Server  LOG      ✓ Compiled in 59ms
+[00:08:42.616] Server  LOG      ✓ Compiled in 95ms
+[00:08:46.871] Server  LOG      ✓ Compiled in 108ms
+[00:08:56.094] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:08:56.117] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
+[00:08:56.758] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:57.302] Browser WARN    Image with src "/images/dp.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:05.055] Server  LOG      ✓ Compiled in 165ms
+[00:09:11.080] Server  LOG      ✓ Compiled in 158ms
+[00:09:12.763] Server  LOG      ✓ Compiled in 147ms
+[00:09:17.498] Server  LOG      ✓ Compiled in 673ms
+[00:09:18.893] Server  LOG      ✓ Compiled in 146ms
+[00:09:21.536] Server  LOG      ✓ Compiled in 180ms
+[00:09:21.773] Browser ERROR   ./components/home/hero-section.tsx:182:51
+Parsing ecmascript source code failed
+  180 |                                             linear-gradient(135deg, #ed4c9244 0%, #ffe3bc18 80%)
+  181 |                                         `,
+> 182 |                                             radial-gradient(circle at 75% 20%, #ffa64233 0%, transparent 66%),
+      |                                                   ^
+  183 |                                             radial-gradient(circle at 40% 80%, #fa7c2736 0%, transparent 82%),
+  184 |                                             linear-gradient(135deg, #fa7c2726 0%, #ffe3bc18 80%)
+  185 |                                         `,
+
+Expected a semicolon
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:09:21.774] Browser ERROR   ./components/home/hero-section.tsx:182:51
+Parsing ecmascript source code failed
+  180 |                                             linear-gradient(135deg, #ed4c9244 0%, #ffe3bc18 80%)
+  181 |                                         `,
+> 182 |                                             radial-gradient(circle at 75% 20%, #ffa64233 0%, transparent 66%),
+      |                                                   ^
+  183 |                                             radial-gradient(circle at 40% 80%, #fa7c2736 0%, transparent 82%),
+  184 |                                             linear-gradient(135deg, #fa7c2726 0%, #ffe3bc18 80%)
+  185 |                                         `,
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:09:24.143] Server  LOG      ✓ Compiled in 146ms
+[00:09:25.124] Browser ERROR   ./components/home/hero-section.tsx:182:51
+Parsing ecmascript source code failed
+  180 |                                             linear-gradient(135deg, #ed4c9244 0%, #ffe3bc18 80%)
+  181 |                                         `,
+> 182 |                                             radial-gradient(circle at 75% 20%, #ffa64233 0%, transparent 66%),
+      |                                                   ^
+  183 |                                             radial-gradient(circle at 40% 80%, #fa7c2736 0%, transparent 82%),
+  184 |                                             linear-gradient(135deg, #fa7c2726 0%, #ffe3bc18 80%)
+  185 |                                         `,
+
+Expected a semicolon
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:09:25.124] Browser ERROR   ./components/home/hero-section.tsx:182:51
+Parsing ecmascript source code failed
+  180 |                                             linear-gradient(135deg, #ed4c9244 0%, #ffe3bc18 80%)
+  181 |                                         `,
+> 182 |                                             radial-gradient(circle at 75% 20%, #ffa64233 0%, transparent 66%),
+      |                                                   ^
+  183 |                                             radial-gradient(circle at 40% 80%, #fa7c2736 0%, transparent 82%),
+  184 |                                             linear-gradient(135deg, #fa7c2726 0%, #ffe3bc18 80%)
+  185 |                                         `,
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:09:36.333] Server  LOG      ✓ Compiled in 173ms
+[00:09:39.156] Server  LOG      ✓ Compiled in 82ms
+[00:10:37.259] Server  LOG      ✓ Compiled in 93ms
+[00:10:45.467] Server  LOG      ✓ Compiled in 160ms
+[00:11:27.408] Server  LOG      ✓ Compiled in 447ms
+[00:11:27.526] Browser ERROR   ./components/home/hero-section.tsx:58:27
+Parsing ecmascript source code failed
+  56 |                         <circle cx="540" cy="55" r="6" fill="#fff" opacity="0.9" />
+  57 |                         <circle cx="575" cy="250" r="3" fill="#fff" opacity="0.5" />
+> 58 |                     </svg>
+     |                           ^
+> 59 |                     {/* Circle dots pattern (bottom right) */}
+     | ^^^^^^^^^^^^^^^^^^^^^
+  60 |                     <svg
+  61 |                         className="absolute bottom-2 right-2 w-64 h-32" // <-- Increased width/height and more offset for area and size
+  62 |                         width="300"
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:11:27.993] Browser ERROR   ./components/home/hero-section.tsx:58:27
+Parsing ecmascript source code failed
+  56 |                         <circle cx="540" cy="55" r="6" fill="#fff" opacity="0.9" />
+  57 |                         <circle cx="575" cy="250" r="3" fill="#fff" opacity="0.5" />
+> 58 |                     </svg>
+     |                           ^
+> 59 |                     {/* Circle dots pattern (bottom right) */}
+     | ^^^^^^^^^^^^^^^^^^^^^
+  60 |                     <svg
+  61 |                         className="absolute bottom-2 right-2 w-64 h-32" // <-- Increased width/height and more offset for area and size
+  62 |                         width="300"
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:11:32.390] Browser ERROR   ./components/home/hero-section.tsx:59:27
+Parsing ecmascript source code failed
+  57 |                         <circle cx="540" cy="55" r="6" fill="#fff" opacity="0.9" />
+  58 |                         <circle cx="575" cy="250" r="3" fill="#fff" opacity="0.5" />
+> 59 |                     </svg>
+     |                           ^
+> 60 |                     {/* Circle dots pattern (bottom right) */}
+     | ^^^^^^^^^^^^^^^^^^^^^
+  61 |                     <svg
+  62 |                         className="absolute bottom-2 right-2 w-64 h-32" // <-- Increased width/height and more offset for area and size
+  63 |                         width="300"
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:11:33.002] Browser ERROR   ./components/home/hero-section.tsx:59:27
+Parsing ecmascript source code failed
+  57 |                         <circle cx="540" cy="55" r="6" fill="#fff" opacity="0.9" />
+  58 |                         <circle cx="575" cy="250" r="3" fill="#fff" opacity="0.5" />
+> 59 |                     </svg>
+     |                           ^
+> 60 |                     {/* Circle dots pattern (bottom right) */}
+     | ^^^^^^^^^^^^^^^^^^^^^
+  61 |                     <svg
+  62 |                         className="absolute bottom-2 right-2 w-64 h-32" // <-- Increased width/height and more offset for area and size
+  63 |                         width="300"
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:11:34.806] Browser ERROR   ./components/home/hero-section.tsx:60:27
+Parsing ecmascript source code failed
+  58 |                         <circle cx="540" cy="55" r="6" fill="#fff" opacity="0.9" />
+  59 |                         <circle cx="575" cy="250" r="3" fill="#fff" opacity="0.5" />
+> 60 |                     </svg>
+     |                           ^
+> 61 |                     {/* Circle dots pattern (bottom right) */}
+     | ^^^^^^^^^^^^^^^^^^^^^
+  62 |                     <svg
+  63 |                         className="absolute bottom-2 right-2 w-64 h-32" // <-- Increased width/height and more offset for area and size
+  64 |                         width="300"
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:11:34.986] Browser ERROR   ./components/home/hero-section.tsx:60:27
+Parsing ecmascript source code failed
+  58 |                         <circle cx="540" cy="55" r="6" fill="#fff" opacity="0.9" />
+  59 |                         <circle cx="575" cy="250" r="3" fill="#fff" opacity="0.5" />
+> 60 |                     </svg>
+     |                           ^
+> 61 |                     {/* Circle dots pattern (bottom right) */}
+     | ^^^^^^^^^^^^^^^^^^^^^
+  62 |                     <svg
+  63 |                         className="absolute bottom-2 right-2 w-64 h-32" // <-- Increased width/height and more offset for area and size
+  64 |                         width="300"
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:11:37.116] Server  LOG      ✓ Compiled in 175ms
+[00:11:41.892] Server  LOG      ✓ Compiled in 85ms
+[00:11:43.074] Server  LOG      ✓ Compiled in 122ms
+[00:11:56.352] Server  LOG      ✓ Compiled in 100ms
+[00:11:56.469] Browser ERROR   ./components/home/hero-section.tsx:86:21
+Parsing ecmascript source code failed
+  84 |                             ))
+  85 |                         )}
+> 86 |                     </svg>
+     |                     ^
+  87 |                     {/* Circle dots pattern (top left) */}
+  88 |                     <svg
+  89 |                         className="absolute top-4 left-5 w-36 h-16"
+
+Expected a semicolon
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:11:56.469] Browser ERROR   ./components/home/hero-section.tsx:86:22
+Parsing ecmascript source code failed
+  84 |                             ))
+  85 |                         )}
+> 86 |                     </svg>
+     |                      ^^^^^
+  87 |                     {/* Circle dots pattern (top left) */}
+  88 |                     <svg
+  89 |                         className="absolute top-4 left-5 w-36 h-16"
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:11:56.977] Browser ERROR   ./components/home/hero-section.tsx:86:21
+Parsing ecmascript source code failed
+  84 |                             ))
+  85 |                         )}
+> 86 |                     </svg>
+     |                     ^
+  87 |                     {/* Circle dots pattern (top left) */}
+  88 |                     <svg
+  89 |                         className="absolute top-4 left-5 w-36 h-16"
+
+Expected a semicolon
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:11:56.977] Browser ERROR   ./components/home/hero-section.tsx:86:22
+Parsing ecmascript source code failed
+  84 |                             ))
+  85 |                         )}
+> 86 |                     </svg>
+     |                      ^^^^^
+  87 |                     {/* Circle dots pattern (top left) */}
+  88 |                     <svg
+  89 |                         className="absolute top-4 left-5 w-36 h-16"
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:12:01.080] Server  LOG      ✓ Compiled in 802ms
+[00:12:25.431] Server  LOG      ✓ Compiled in 202ms
+[00:12:36.159] Server  LOG      ✓ Compiled in 187ms
+[00:12:40.639] Server  LOG      ✓ Compiled in 1010ms
+[00:12:51.598] Server  LOG      ✓ Compiled in 85ms
+[00:12:54.049] Server  LOG      ✓ Compiled in 95ms
+[00:12:57.641] Server  LOG      ✓ Compiled in 89ms
+[00:38:34.629] Server  LOG      ✓ Compiled in 53ms
+[00:38:45.239] Server  LOG      ✓ Compiled in 101ms
+[00:38:51.278] Server  LOG      ✓ Compiled in 426ms
+[00:38:51.412] Browser ERROR   ./components/home/hero-section.tsx:62:27
+Parsing ecmascript source code failed
+  60 |                         <circle cx="540" cy="55" r="6" fill="#fff" opacity="0.9" />
+  61 |                         <circle cx="575" cy="250" r="3" fill="#fff" opacity="0.5" />
+> 62 |                     </svg>
+     |                           ^
+> 63 |                     {/* Circle dots pattern (bottom right) */}
+     | ^^^^^^^^^^^^^^^^^^^^^
+  64 |                     <svg
+  65 |                         className="absolute bottom-2 right-2 w-64 h-32" // <-- Increased width/height and more offset for area and size
+  66 |                         width="300"
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:38:53.976] Browser ERROR   ./components/home/hero-section.tsx:62:27
+Parsing ecmascript source code failed
+  60 |                         <circle cx="540" cy="55" r="6" fill="#fff" opacity="0.9" />
+  61 |                         <circle cx="575" cy="250" r="3" fill="#fff" opacity="0.5" />
+> 62 |                     </svg>
+     |                           ^
+> 63 |                     {/* Circle dots pattern (bottom right) */}
+     | ^^^^^^^^^^^^^^^^^^^^^
+  64 |                     <svg
+  65 |                         className="absolute bottom-2 right-2 w-64 h-32" // <-- Increased width/height and more offset for area and size
+  66 |                         width="300"
+
+Expected '</', got 'jsx text (
+                    )'
+
+Import trace:
+  Server Component:
+    ./components/home/hero-section.tsx
+    ./app/page.tsx
+[00:38:56.098] Server  LOG      ✓ Compiled in 492ms
+[00:39:05.798] Server  LOG      ✓ Compiled in 54ms
+[00:39:08.184] Server  LOG      ✓ Compiled in 377ms
+[00:39:09.575] Server  LOG      ✓ Compiled in 104ms
+[00:39:14.144] Server  LOG      ✓ Compiled in 75ms
+[00:39:16.744] Server  LOG      ✓ Compiled in 61ms
+[00:40:54.902] Server  LOG      ✓ Compiled in 49ms
+[00:41:22.874] Server  LOG      ✓ Compiled in 94ms
+[00:41:33.275] Server  LOG      ✓ Compiled in 86ms
+[00:41:41.746] Server  LOG      ✓ Compiled in 138ms
+[00:41:45.181] Server  LOG      ✓ Compiled in 386ms
+[00:41:46.681] Server  LOG      ✓ Compiled in 150ms
+[00:41:52.545] Server  LOG      ✓ Compiled in 58ms
+[00:41:55.348] Server  LOG      ✓ Compiled in 96ms
+[00:42:42.092] Server  LOG      ✓ Compiled in 110ms
+[00:43:41.064] Server  LOG      ✓ Compiled in 57ms
+[00:43:47.268] Server  LOG      ✓ Compiled in 78ms
+[00:43:57.303] Server  LOG      ✓ Compiled in 196ms
+[00:44:01.244] Server  LOG      ✓ Compiled in 127ms
+[00:44:06.255] Server  LOG      ✓ Compiled in 85ms
+[00:44:08.594] Server  LOG      ✓ Compiled in 68ms
+[00:45:32.213] Server  LOG      ✓ Compiled in 96ms
+[00:45:37.733] Server  LOG      ✓ Compiled in 93ms
+[00:46:09.163] Server  LOG      ✓ Compiled in 51ms
+[00:47:34.525] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/react-hooks-code.png" "received" null
+[00:47:34.539] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/tailwind-css-design.png" "received" null
+[00:47:34.541] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nextjs-developer-working.jpg" "received" null
+[00:47:34.845] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/nodejs-backend-development.jpg" "received" null
+[00:47:34.857] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/mongodb-database-design.jpg" "received" null
+[00:47:34.858] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/typescript-programming.png" "received" null
