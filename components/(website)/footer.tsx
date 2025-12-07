@@ -61,13 +61,13 @@ export default function Footer() {
                     <div>
                         <h4 className="font-semibold mb-4">Follow</h4>
                         <div className="flex gap-4">
-                            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+                            <a href="https://github.com/madhvi209" className="text-muted-foreground hover:text-foreground transition-colors">
                                 <Github className="w-5 h-5" />
                             </a>
-                            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+                            <a href="https://www.linkedin.com/in/madhavi32/" className="text-muted-foreground hover:text-foreground transition-colors">
                                 <Linkedin className="w-5 h-5" />
                             </a>
-                            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+                            <a href="mailto:madhavisharma207@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
                                 <Mail className="w-5 h-5" />
                             </a>
                         </div>

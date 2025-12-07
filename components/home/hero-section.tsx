@@ -4,6 +4,44 @@ import Image from "next/image";
 import { ArrowRight, Download } from "lucide-react";
 import TypingAnimation from "@/components/typeing-animation";
 
+// Social icons from contact-section.tsx (lines 6-52)
+const socialIcons = [
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/madhavi32/",
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <rect x="2" y="2" width="20" height="20" rx="2" />
+        <line x1="7" y1="8.5" x2="7" y2="16.5" />
+        <line x1="7" y1="7" x2="7" y2="7" />
+        <path d="M12 12v4.5M12 13.5c0-1.104.79-1.5 1.71-1.5 1.11 0 2.29.67 2.29 2.1v3.4" />
+      </svg>
+    ),
+  },
+  {
+    name: "GitHub",
+    link: "https://github.com/madhvi209",
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.09.66-.22.66-.48v-1.71c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.12-1.47-1.12-1.47-.91-.63.07-.62.07-.62 1.01.07 1.54 1.05 1.54 1.05.9 1.54 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.7-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.58 9.58 0 0 1 12 6.8c.85.004 1.71.11 2.51.32 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.71 1.03 1.61 1.03 2.7 0 3.85-2.34 4.7-4.57 4.95.36.31.68.93.68 1.88v2.79c0 .26.16.58.67.48A10.012 10.012 0 0 0 22 12c0-5.52-4.48-10-10-10z" />
+      </svg>
+    ),
+  },
+  {
+    name: "LeetCode",
+    link: "https://leetcode.com/u/madhavi209",
+    icon: (
+      <svg width="24" height="24" viewBox="0 0 50 50" fill="none" stroke="currentColor" strokeWidth="2">
+        <g>
+          <path d="M15 40 L35 10" stroke="currentColor" strokeWidth="3" strokeLinecap="round"/>
+          <path d="M19 34 Q22 37,25 34 Q28 31,31 34" stroke="currentColor" strokeWidth="3" strokeLinecap="round" fill="none"/>
+          <circle cx="25" cy="40" r="4" stroke="currentColor" strokeWidth="2" fill="none"/>
+        </g>
+      </svg>
+    ),
+  }
+];
+
 export default function HeroSection() {
     return (
         <>
@@ -12,9 +50,6 @@ export default function HeroSection() {
                 id="home"
                 className="min-h-screen flex items-center pt-8 relative overflow-hidden"
                 style={{
-                    // Use color theme from about-section.tsx (lines 52-55). Matches: 
-                    // bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600
-                    // For hero: replicate as background gradient with these stops:
                     background:
                         "linear-gradient(135deg, #232538 0%, #232538 61%, #fb7c27 61%, #fb5c97 100%)",
                 }}
@@ -51,7 +86,6 @@ export default function HeroSection() {
                     >
                         <path
                             d="M0,400 Q400,400 600,120 Q600,0 480,0 Q200,160 0,400 Z"
-                            // mix of orange and pink as in about-section
                             fill="url(#hero-orange-pink)"
                             opacity="0.94"
                         />
@@ -175,7 +209,7 @@ export default function HeroSection() {
                         </div>
 
                         {/* Right Side - Animated Circular Image */}
-                        <div className="relative flex justify-center md:justify-end h-[22rem] sm:h-[27rem] md:h-[30rem] md:h-full mt-10 md:mt-0">
+                        <div className="relative flex flex-col items-center md:items-end justify-center md:justify-end h-[22rem] sm:h-[27rem] md:h-[30rem] md:h-full mt-10 md:mt-0">
                             <div className="relative w-64 h-64 sm:w-[22rem] sm:h-[22rem] md:w-[25rem] md:h-[25rem] flex items-center justify-center animate-bounce-smooth">
                                 {/* BG: orange & pink gradient */}
                                 <div
@@ -203,6 +237,32 @@ export default function HeroSection() {
                                     }}
                                     priority
                                 />
+                            </div>
+                            {/* Social Icons below and shifted left & center of Image */}
+                            <div
+                              className="flex gap-4 mt-7 md:mt-8"
+                              style={{
+                                position: "absolute",
+                                left: "50%",
+                                bottom: "-3.2rem",
+                                transform: "translateX(-10%)", // Shift the social icons a little to the right
+                                zIndex: 20
+                              }}
+                            >
+                                {socialIcons.map((icon) => (
+                                  <a
+                                    key={icon.name}
+                                    href={icon.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label={icon.name}
+                                    className="group transition-transform hover:scale-110 hover:-translate-y-1 focus:outline-none"
+                                  >
+                                    <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-orange-500/90 to-pink-500/80 text-white shadow-lg border-2 border-white/30 transition-all duration-200 group-hover:from-orange-600 group-hover:to-pink-600">
+                                      {icon.icon}
+                                    </span>
+                                  </a>
+                                ))}
                             </div>
                             {/* Keyframe for bounce-smooth */}
                             <style jsx>{`
