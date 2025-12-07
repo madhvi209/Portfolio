@@ -93,7 +93,12 @@ const projects = [
 ];
 
 // Helper: Gallery for project images
-function ProjectImageGallery({ images, title }) {
+type ProjectImageGalleryProps = {
+  images: string[];
+  title: string;
+};
+
+function ProjectImageGallery({ images, title }: ProjectImageGalleryProps) {
   const [currentImg, setCurrentImg] = useState(0);
 
   if (!Array.isArray(images) || images.length === 0)
@@ -107,12 +112,12 @@ function ProjectImageGallery({ images, title }) {
       />
     );
 
-  const handlePrev = (e) => {
+  const handlePrev = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     e.stopPropagation();
     setCurrentImg((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
 
-  const handleNext = (e) => {
+  const handleNext = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     e.stopPropagation();
     setCurrentImg((prev) => (prev === images.length - 1 ? 0 : prev + 1));
   };
@@ -170,7 +175,7 @@ function ProjectImageGallery({ images, title }) {
 }
 
 // Helper: Properly resolve GitHub URL (ensures clickable, opens in new tab, and adds protocol)
-function getValidGithubUrl(github) {
+function getValidGithubUrl(github: string) {
   if (!github || github === "#" || github.trim() === "") return "#";
   if (github.startsWith("http://") || github.startsWith("https://")) return github;
   // Accept links both with and without "www.", accept both "github.com" domain and "https://"
@@ -186,7 +191,7 @@ function getValidGithubUrl(github) {
 }
 
 // Helper: Set 'http' for demo links that are missing protocol and not just "#"
-function getValidDemoUrl(demo) {
+function getValidDemoUrl(demo: string) {
   if (!demo || demo === "#" || demo.trim() === "") return "#";
   if (demo.startsWith("http://") || demo.startsWith("https://")) return demo;
   return "https://" + demo.replace(/^\/*/, "");
