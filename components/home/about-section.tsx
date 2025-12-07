@@ -14,7 +14,7 @@ function AboutSection() {
                 <div className="relative w-72 h-80 sm:w-80 sm:h-96">
                     <div className="absolute inset-0 border-[8px] border-background z-20 overflow-hidden rounded-md">
                         <Image
-                            src="/images/dp1.png"
+                            src="/images/dp1.jpeg"
                             alt="Madhavi Sharma"
                             fill
                             className="object-cover grayscale-[15%] contrast-110"
