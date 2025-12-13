@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 
 // --- TYPES ---
 interface Experience {
@@ -10,7 +10,7 @@ interface Experience {
   startDate: string;
   endDate: string;
   role: string;
-  description: string;
+  description: string[] | string;
 }
 
 // --- INITIAL DATA ---
@@ -22,8 +22,12 @@ const INITIAL_EXPERIENCES: Experience[] = [
     startDate: "Jun 2025",
     endDate: "Aug 2025",
     role: "Software Engineer (Full Stack)",
-    description:
-      "Developed scalable web applications and backend services using React, Next.js, Node.js, and TypeScript. Improved API and database performance, collaborated with cross-functional teams, and delivered client-focused solutions.",
+    description: [
+      "Developed and delivered scalable full-stack web applications using React.js, Next.js, Node.js, and Express.js.",
+      "Collaborated with cross-functional teams to improve requirement clarity, reducing front-end rework by 30%.",
+      "Optimized backend APIs and database queries across MongoDB, Firebase, MySQL, and PostgreSQL, improving performance by up to 40%.",
+      "Integrated authentication, payment gateways, and third-party APIs while maintaining clean, well-documented code.",
+    ],
   },
   {
     id: "2",
@@ -32,8 +36,12 @@ const INITIAL_EXPERIENCES: Experience[] = [
     startDate: "Oct 2024",
     endDate: "Feb 2025",
     role: "Software Engineer",
-    description:
-      "Built responsive React.js interfaces, integrated APIs, and collaborated on UI/UX improvements. Ensured efficient data flow and maintained code quality for reliable product delivery.",
+    description: [
+      "Developed and delivered scalable full-stack web applications using React.js, Next.js, Node.js, and Express.js.",
+      "Collaborated with cross-functional teams to improve requirement clarity, reducing front-end rework by 30%.",
+      "Optimized backend APIs and database queries across MongoDB, Firebase, MySQL, and PostgreSQL, improving performance by up to 40%.",
+      "Integrated authentication, payment gateways, and third-party APIs while maintaining clean, well-documented code.",
+    ],
   },
   {
     id: "3",
@@ -42,8 +50,11 @@ const INITIAL_EXPERIENCES: Experience[] = [
     startDate: "Jun 2024",
     endDate: "Oct 2024",
     role: "Full Stack Developer",
-    description:
-      "Developed a full-stack job portal with React.js, Node.js, and MongoDB. Designed responsive layouts, implemented secure authentication, and ensured scalable back-end operations.",
+    description: [
+      "Built and deployed a full-stack job portal using React.js, Node.js, and MongoDB with secure, role-based access control.",
+      "Developed fully responsive and consistent UI layouts using Tailwind CSS across multiple devices.",
+      "Implemented secure authentication (JWT, RBAC) and scalable backend APIs to support growing user and data volume.",
+    ],
   },
 ];
 
@@ -55,6 +66,14 @@ interface TimelineItemProps {
 }
 
 const TimelineItem: React.FC<TimelineItemProps> = ({ data, isLast, index }) => {
+  // Defensive: Support both string[] and (rarely) string for data.description
+  let descriptionList: string[] = [];
+  if (Array.isArray(data.description)) {
+    descriptionList = data.description;
+  } else if (typeof data.description === "string") {
+    descriptionList = [data.description];
+  }
+
   return (
     <div
       className="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-x-8 group"
@@ -92,9 +111,11 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ data, isLast, index }) => {
         <h4 className="font-serif font-bold text-xl text-white mb-3 group-hover:text-orange-500 transition-colors">
           {data.role}
         </h4>
-        <p className="text-sm text-white/70 leading-relaxed font-sans text-justify md:text-left">
-          {data.description}
-        </p>
+        <ul className="text-sm text-white/70 leading-relaxed font-sans text-justify md:text-left list-disc pl-5">
+          {descriptionList.map((item, idx) => (
+            <li key={idx}>{item}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );
@@ -102,7 +123,8 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ data, isLast, index }) => {
 
 // --- Main ExperienceSection ---
 const ExperienceSection = () => {
-  const [experiences] = useState<Experience[]>(INITIAL_EXPERIENCES);
+  // Remove useState from here, as it isn't needed and not supported in non-client components
+  const experiences = INITIAL_EXPERIENCES;
 
   return (
     <section
@@ -152,4 +174,3 @@ const ExperienceSection = () => {
 };
 
 export default ExperienceSection;
-
