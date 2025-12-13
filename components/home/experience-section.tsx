@@ -23,7 +23,7 @@ const INITIAL_EXPERIENCES: Experience[] = [
     endDate: "Aug 2025",
     role: "Software Engineer (Full Stack)",
     description:
-      "• Contributed to 5+ end-to-end web projects, ensuring scalable and maintainable code.\n\n• Worked closely with cross-functional teams, reducing front-end rework by 30% through better coordination.\n\n• Built UI mockups and interactive prototypes with Figma to boost user experience.\n\n• Led and delivered 3+ client-focused projects, increasing client satisfaction and reducing iteration cycles.\n\n• Developed responsive user interfaces using React.js, Next.js, Tailwind CSS, and TypeScript, achieving 99% device compatibility.\n\n• Built robust backend services (Node.js, Express.js), optimizing API performance by 40% to support high traffic.\n\n• Improved database performance (MongoDB, Firebase, MySQL, PostgreSQL), cutting query latency by 25%.\n\n• Created and tested RESTful APIs with Node.js, Postman, and Axios, reducing integration errors by 30%.\n\n• Integrated payment, auth, and external APIs, maintaining 5+ clean and well-documented GitHub repos.",
+      "Developed scalable web applications and backend services using React, Next.js, Node.js, and TypeScript. Improved API and database performance, collaborated with cross-functional teams, and delivered client-focused solutions.",
   },
   {
     id: "2",
@@ -33,7 +33,7 @@ const INITIAL_EXPERIENCES: Experience[] = [
     endDate: "Feb 2025",
     role: "Software Engineer",
     description:
-      "• Developed user-friendly and dynamic interfaces with React.js, ensuring 99% compatibility and improved responsiveness across devices.\n\n• Connected frontend with backend APIs, reducing API latency and speeding up data fetches.\n\n• Worked with UI/UX designers to create multiple accessible layouts, streamlining development and reducing revisions.\n\n• Integrated third-party APIs and maintained clean, version-controlled code on GitHub for better team collaboration and deployment.",
+      "Built responsive React.js interfaces, integrated APIs, and collaborated on UI/UX improvements. Ensured efficient data flow and maintained code quality for reliable product delivery.",
   },
   {
     id: "3",
@@ -43,7 +43,7 @@ const INITIAL_EXPERIENCES: Experience[] = [
     endDate: "Oct 2024",
     role: "Full Stack Developer",
     description:
-      "• Engineered and launched a full-stack job portal using React.js, Node.js, and MongoDB, processing 100+ job listings daily with secure, role-based user access.\n\n• Crafted fully responsive layouts in Tailwind CSS, improving design consistency across devices by 50%.\n\n• Implemented secure authentication with JWT and RBAC, protecting user data and efficiently onboarding 500+ users.\n\n• Managed complex back-end logic, APIs, and database flows to keep the product scalable and reliable.",
+      "Developed a full-stack job portal with React.js, Node.js, and MongoDB. Designed responsive layouts, implemented secure authentication, and ensured scalable back-end operations.",
   },
 ];
 
