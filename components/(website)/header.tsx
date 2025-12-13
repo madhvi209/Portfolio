@@ -6,14 +6,14 @@ import { Menu, X, Moon, Sun } from "lucide-react"
 import Link from "next/link"
 
 const navLinks = [
-    { label: "Home", href: "#home" },
-    { label: "About", href: "#about" },
-    { label: "Skills", href: "#skills" },
-    { label: "Projects", href: "#projects" },
-    { label: "Education", href: "#education" },
-    { label: "Experience", href: "#experience" },
-    { label: "Blogs", href: "#blogs" },
-    { label: "Contact", href: "#contact" },
+    { label: "Home", href: "/#home" },
+    { label: "About", href: "/#about" },
+    { label: "Skills", href: "/#skills" },
+    { label: "Projects", href: "/#projects" },
+    { label: "Education", href: "/#education" },
+    { label: "Experience", href: "/#experience" },
+    { label: "Blogs", href: "/#blogs" },
+    { label: "Contact", href: "/#contact" },
 ]
 
 export default function Header() {
@@ -33,7 +33,7 @@ export default function Header() {
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
                     <Link
-                        href="#"
+                        href="/"
                         className="text-2xl font-bold bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent"
                     >
                         MS

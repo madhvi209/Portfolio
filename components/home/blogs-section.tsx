@@ -3,82 +3,7 @@
 import { useState, useMemo } from "react";
 import BlogCard from "@/components/blogs-card";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-
-const blogsData = [
-  {
-    id: 1,
-    title: "Getting Started with Next.js 15",
-    description:
-      "Learn the fundamentals of Next.js and build your first full-stack application with the latest features.",
-    image: "/nextjs-developer-working.jpg",
-  },
-  {
-    id: 2,
-    title: "React Hooks Deep Dive",
-    description: "Explore advanced React hooks and understand how to manage state effectively in your applications.",
-    image: "/react-hooks-code.png",
-  },
-  {
-    id: 3,
-    title: "Tailwind CSS Best Practices",
-    description: "Master Tailwind CSS with industry best practices and create beautiful responsive designs.",
-    image: "/tailwind-css-design.png",
-  },
-  {
-    id: 4,
-    title: "Building REST APIs with Node.js",
-    description: "Create scalable and secure REST APIs using Node.js and Express.js with best practices.",
-    image: "/nodejs-backend-development.jpg",
-  },
-  {
-    id: 5,
-    title: "MongoDB Database Design",
-    description: "Learn how to design efficient MongoDB schemas and optimize your database queries.",
-    image: "/mongodb-database-design.jpg",
-  },
-  {
-    id: 6,
-    title: "TypeScript for Beginners",
-    description: "Get started with TypeScript and understand how it improves code quality and developer experience.",
-    image: "/typescript-programming.png",
-  },
-  {
-    id: 7,
-    title: "State Management with Redux",
-    description: "Master Redux Toolkit for predictable state management in large-scale React applications.",
-    image: "/redux-state-management.png",
-  },
-  {
-    id: 8,
-    title: "Full Stack Authentication Guide",
-    description: "Implement secure authentication systems using JWT and modern security practices.",
-    image: "/authentication-security.png",
-  },
-  {
-    id: 9,
-    title: "Deploying Apps on Vercel",
-    description: "Learn how to deploy your Next.js applications on Vercel with CI/CD pipelines.",
-    image: "/vercel-deployment-cloud.jpg",
-  },
-  {
-    id: 10,
-    title: "Web Performance Optimization",
-    description: "Optimize your web applications for speed and improve user experience metrics.",
-    image: "/performance-optimization-web.jpg",
-  },
-  {
-    id: 11,
-    title: "CSS Grid Advanced Layouts",
-    description: "Create complex responsive layouts using CSS Grid and master modern layout techniques.",
-    image: "/css-grid-layout.png",
-  },
-  {
-    id: 12,
-    title: "Testing React Applications",
-    description: "Write comprehensive tests for React components using Jest and React Testing Library.",
-    image: "/testing-react-jest.jpg",
-  },
-];
+import { blogs } from "@/data/blogs";
 
 export default function BlogsSection() {
   const [currentPage, setCurrentPage] = useState(0);
@@ -86,10 +11,10 @@ export default function BlogsSection() {
 
   const paginatedBlogs = useMemo(() => {
     const startIndex = currentPage * blogsPerPage;
-    return blogsData.slice(startIndex, startIndex + blogsPerPage);
+    return blogs.slice(startIndex, startIndex + blogsPerPage);
   }, [currentPage]);
 
-  const totalPages = Math.ceil(blogsData.length / blogsPerPage);
+  const totalPages = Math.ceil(blogs.length / blogsPerPage);
 
   const handleNextPage = () => {
     if (currentPage < totalPages - 1) {
@@ -110,7 +35,7 @@ export default function BlogsSection() {
         <div className="mb-12 text-center">
           <h2 className="text-4xl font-bold mb-4">
             <span className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-              My Blog Posts
+              My Blogs
             </span>
           </h2>
           <p className="text-lg text-muted-foreground">
@@ -121,7 +46,10 @@ export default function BlogsSection() {
         {/* Blogs Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {paginatedBlogs.map((blog) => (
-            <BlogCard key={blog.id} blog={blog} />
+            <div key={blog.id} className="flex flex-col h-full">
+              <BlogCard blog={blog} />
+              {/* "Read More" button removed as per instruction */}
+            </div>
           ))}
         </div>
 
@@ -140,11 +68,10 @@ export default function BlogsSection() {
               <button
                 key={index}
                 onClick={() => setCurrentPage(index)}
-                className={`w-10 h-10 rounded-lg font-semibold transition-all duration-300 ${
-                  currentPage === index
+                className={`w-10 h-10 rounded-lg font-semibold transition-all duration-300 ${currentPage === index
                     ? "bg-gradient-to-r from-orange-400 to-orange-500 text-white shadow-lg"
                     : "bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300 hover:bg-orange-200 dark:hover:bg-orange-900/50"
-                }`}
+                  }`}
               >
                 {index + 1}
               </button>
@@ -163,8 +90,8 @@ export default function BlogsSection() {
         {/* Page Info */}
         <div className="text-center mt-8 text-muted-foreground">
           <p className="text-sm">
-            Showing {currentPage * blogsPerPage + 1} - {Math.min((currentPage + 1) * blogsPerPage, blogsData.length)} of{" "}
-            {blogsData.length} blogs
+            Showing {currentPage * blogsPerPage + 1} - {Math.min((currentPage + 1) * blogsPerPage, blogs.length)} of{" "}
+            {blogs.length} blogs
           </p>
         </div>
       </div>
