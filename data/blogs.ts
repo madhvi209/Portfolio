@@ -26,6 +26,10 @@ export const blogs: Blog[] = [
         title: "Approach 1: Brute Force",
         image: "/images/blogs/2sum/twoSum1.png",
         points: [
+          "Rules:",
+          "Each element can be used only once",
+          "Exactly one valid answer exists",
+          "Approach:",
           "Check every possible pair in the array to see if their sum equals the target.",
           "Use two loops to pick two different numbers.",
           "Check if their sum equals the target.",
@@ -85,7 +89,7 @@ public:
       }
     ]
   },
-  
+
 ];
 
 export default blogs;
